@@ -64,6 +64,7 @@
 }
 
 .about-img > img {
+    width: 450px;
     flex: 1.5;
 }
 

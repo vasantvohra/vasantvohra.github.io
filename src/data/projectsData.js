@@ -1,6 +1,6 @@
 import atadc from '../assets/svg/projects/ATADC.png'
 import ai from '../assets/svg/projects/AI.jpeg'
-
+import indico from '../assets/svg/projects/indico.gif'
 
 export const projectsData = [
     {
@@ -10,7 +10,7 @@ export const projectsData = [
         tags: ['Python', 'Flask', 'React'],
         code: 'https://github.com/indico/indico',
         demo: 'https://indico.un.org',
-        image: "https://raw.githubusercontent.com/indico/indico/master/sneakpeek.gif"
+        image: indico
     },
     {
         id: 2,

@@ -2,7 +2,7 @@ export const educationData = [
     {
         id: 1,
         institution: 'Autodidact',
-        course: 'Building Great software products',
+        course: 'Continuous Learning',
         startYear: '2019',
         endYear: 'Present',
         subject: 'Software Engineering, Artificial Intelligence, Product Manager',
@@ -20,7 +20,7 @@ export const educationData = [
     {
         id: 3,
         institution: 'Indian Institute of Technology, Madras',
-        course: 'National Programme on Tech Enhanced Learning',
+        course: 'NPTEL',
         startYear: '2018',
         endYear: '2018',
         subject: 'Deep Learning, Artificial Intelligence',
