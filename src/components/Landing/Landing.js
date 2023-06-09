@@ -99,7 +99,7 @@ function Landing() {
                     <div className="lcr--content" style={{color: theme.tertiary}}>
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
-                        <p>{headerData.desciption}</p>
+                        <p>{headerData.description}</p>
 
                         <div className="lcr-buttonContainer">
                             {headerData.resumePdf && (
@@ -107,9 +107,12 @@ function Landing() {
                                     <Button className={classes.resumeBtn}>Download CV</Button>
                                 </a>
                             )}
-                            <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
-                                <Button className={classes.contactBtn}>Contact</Button>
-                            </NavLink>
+                            {/*<NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>*/}
+                            {/*    <Button className={classes.contactBtn}>Contact</Button>*/}
+                            {/*</NavLink>*/}
+                            <a href='mailto:vasantvohra@gmail.com' rel="noreferrer">
+                                <Button className={classes.contactBtn}>Email</Button>
+                            </a>
                         </div>
                     </div>
                 </div>

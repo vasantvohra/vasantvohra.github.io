@@ -64,8 +64,7 @@
 }
 
 .about-img > img {
-    width: 380px;
-    flex: 0.5;
+    flex: 1.5;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {

@@ -182,15 +182,6 @@ function Navbar() {
                         </Fade>
 
                         <Fade left>
-                            <NavLink to="/#resume" smooth={true} spy="true" duration={2000}>
-                                <div className={classes.drawerItem}>
-                                    <HiDocumentText className={classes.drawerIcon}/>
-                                    <span className={classes.drawerLinks}>Resume</span>
-                                </div>
-                            </NavLink>
-                        </Fade>
-
-                        <Fade left>
                             <NavLink to="/#services" smooth={true} spy="true" duration={2000}>
                                 <div className={classes.drawerItem}>
                                     <BsFillGearFill className={classes.drawerIcon}/>
@@ -200,22 +191,31 @@ function Navbar() {
                         </Fade>
 
                         <Fade left>
-                            <NavLink to="/#blog" smooth={true} spy="true" duration={2000}>
+                            <NavLink to="/#experience" smooth={true} spy="true" duration={2000}>
                                 <div className={classes.drawerItem}>
-                                    <FaFolderOpen className={classes.drawerIcon}/>
-                                    <span className={classes.drawerLinks}>Blog</span>
+                                    <HiDocumentText className={classes.drawerIcon}/>
+                                    <span className={classes.drawerLinks}>Experience</span>
                                 </div>
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
-                            <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
-                                <div className={classes.drawerItem}>
-                                    <MdPhone className={classes.drawerIcon}/>
-                                    <span className={classes.drawerLinks}>Contact</span>
-                                </div>
-                            </NavLink>
-                        </Fade>
+                        {/*<Fade left>*/}
+                        {/*    <NavLink to="/#blog" smooth={true} spy="true" duration={2000}>*/}
+                        {/*        <div className={classes.drawerItem}>*/}
+                        {/*            <FaFolderOpen className={classes.drawerIcon}/>*/}
+                        {/*            <span className={classes.drawerLinks}>Articles</span>*/}
+                        {/*        </div>*/}
+                        {/*    </NavLink>*/}
+                        {/*</Fade>*/}
+
+                        {/*<Fade left>*/}
+                        {/*    <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>*/}
+                        {/*        <div className={classes.drawerItem}>*/}
+                        {/*            <MdPhone className={classes.drawerIcon}/>*/}
+                        {/*            <span className={classes.drawerLinks}>Contact</span>*/}
+                        {/*        </div>*/}
+                        {/*    </NavLink>*/}
+                        {/*</Fade>*/}
                     </div>
                 </div>
             </Drawer>

@@ -7,6 +7,8 @@ import EducationCard from './EducationCard';
 
 import { educationData } from '../../data/educationData'
 
+import me from '../../assets/svg/education/IISC.jpeg'
+
 function Education() {
 
     const { theme } = useContext(ThemeContext);
@@ -24,11 +26,13 @@ function Education() {
                             course={edu.course}
                             startYear={edu.startYear}
                             endYear={edu.endYear}
+                            logo={edu.logo}
+                            subject={edu.subject}
                         />
                     ))}
                 </div>
                 <div className="education-image">
-                    <img src={theme.eduimg} alt=""/>
+                    <img src={me} alt=""/>
                 </div>
             </div>
         </div>

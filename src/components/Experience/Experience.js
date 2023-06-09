@@ -6,6 +6,7 @@ import './Experience.css';
 
 import { experienceData } from '../../data/experienceData'
 import ExperienceCard from './ExperienceCard';
+import meUN from '../../assets/svg/experience/MeUN.jpeg'
 
 function Experience() {
 
@@ -14,7 +15,7 @@ function Experience() {
         <div className="experience" id="experience" style={{backgroundColor: theme.secondary}}> 
              <div className="experience-body">
                  <div className="experience-image">
-                     <img src={theme.expimg} alt="" />
+                     <img src={meUN} alt="" />
                  </div>
                  <div className="experience-description">
                     <h1 style={{color:theme.primary}}>Experience</h1>
@@ -25,7 +26,10 @@ function Experience() {
                             jobtitle={exp.jobtitle}
                             company={exp.company}
                             startYear={exp.startYear}
-                            endYear={exp.endYear}/>
+                            endYear={exp.endYear}
+                            location={exp.location}
+                            logo={exp.logo}
+                        />
                     ))}
                  </div>
              </div>

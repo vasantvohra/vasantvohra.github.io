@@ -41,7 +41,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
         <Fade bottom>
             <div key={id} className="singleProject" style={{backgroundColor: theme.primary400}}>
                 <div className="projectContent">
-                    <h2 style={{color: theme.tertiary}}>{name}</h2>
+                    <h2 style={{color: theme.secondary}}>{name}</h2>
                     <img src={image ? image : placeholder} alt={name} /> 
                     <div className="project--showcaseBtn">
                         <a href={demo} target="_blank" rel="noreferrer" className={classes.iconBtn}>
