@@ -1,6 +1,6 @@
 {
-  "name": "developer-portfolio",
-  "version": "0.1.0",
+  "name": "vasant-portfolio",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.2",
@@ -24,6 +24,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
