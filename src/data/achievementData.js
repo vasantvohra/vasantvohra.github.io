@@ -1,31 +1,41 @@
+import hospitality from "../assets/svg/expertise/hospitality.png";
+import medisigns from "../assets/svg/expertise/medisigns.png";
+
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+    bio : "I have gained experience in various industries, recognizing the importance of building exceptional software products that streamline operations and deliver optimal results for businesses.",
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            title : 'UN Events and Conferencing',
+            details : 'I designed & developed a one-of-a-kind Access Authorisation Module to enable journalists frequent access to UN premises for attending conferences.',
+            date : 'October, 2020',
+            field : 'Web App',
+            image : 'https://assets.stickpng.com/images/6160539b76000b00045a7d87.png'
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Insurance',
+            details : 'I\'ve technically designed a groundbreaking insurance platform that includes helicopter emergency evacuations, on-call doctors, and specialized medical camps for adventure sports like mountaineering.',
+            date : 'September, 2019',
+            field : 'Web App',
+            image : 'https://upload.wikimedia.org/wikipedia/commons/9/90/Everest%2C_Himalayas.jpg'
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'Healthcare and Pharmaceuticals',
+            details : 'I\'ve designed & developed an accessible disease diagnosis app where users can input images or symptoms via chat, and artificial intelligence provides efficient diagnoses.',
+            date : 'August, 2018',
+            field : 'AI',
+            image : medisigns
+        },
+        {
+            id: 3,
+            title: 'Hospitality',
+            details: 'I\'ve worked from an ideation to prototype of developing a restaurant food ordering application that enables customers to conveniently place their orders while physically present at the restaurant, using designated table numbers.',
+            date: 'July, 2017',
+            field: 'Mobile App',
+            image: hospitality
         }
-
     ]
 }
 

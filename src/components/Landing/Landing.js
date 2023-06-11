@@ -107,11 +107,11 @@ function Landing() {
                                     <Button className={classes.resumeBtn}>Download CV</Button>
                                 </a>
                             )}
-                            {/*<NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>*/}
-                            {/*    <Button className={classes.contactBtn}>Contact</Button>*/}
-                            {/*</NavLink>*/}
+                            <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
+                                <Button className={classes.contactBtn}>Contact</Button>
+                            </NavLink>
                             <a href='mailto:vasantvohra@gmail.com' rel="noreferrer">
-                                <Button className={classes.contactBtn}>Email</Button>
+                                <Button className={classes.resumeBtn}>Email me</Button>
                             </a>
                         </div>
                     </div>

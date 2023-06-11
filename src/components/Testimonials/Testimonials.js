@@ -55,7 +55,7 @@ function Testimonials() {
                                     {testimonialsData.map((test) => (
                                         <div className="single--testimony" key={test.id}>
                                             <div className="testimonials--container" >
-                                                <div className="review--img" style={{backgroundColor: theme.secondary}}>
+                                                <div className="review--img">
                                                     <img src={test.image} alt={test.name} />
                                                 </div>
                                                 <div className="review--content" style={{backgroundColor: theme.secondary, color: theme.tertiary}}>

@@ -154,6 +154,9 @@
         padding: 2rem;
     }
 
+    .expertise-image {
+        display: none;
+    }
 
     .achievement-body {
         width: 100%;
@@ -236,3 +239,16 @@
 
 }
 
+.expertise-image {
+    box-sizing: border-box;
+    padding: 1rem;
+    flex: 0.35;
+    margin-left: 7%;
+    margin-top: 1rem;
+    pointer-events: none;
+}
+
+.expertise-image > img {
+    width: 100%;
+    pointer-events: none;
+}

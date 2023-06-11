@@ -1,43 +1,27 @@
 export const blogData = [
     {
         id: 1,
-        title: 'SCRAPING BILLBOARD AND IMDB USING PYTHON SELENIUM',
-        description: 'Here we will use Selenium to navigate between web pages, and try to scrape data from them.',
-        date: 'Aug 7, 2020',
-        image: 'https://1.bp.blogspot.com/-6vZQoWcIZeo/Xvw5ZD5Y53I/AAAAAAAABgI/GH2b5OuMaXAKuigK4diBbeYDW6dD3qVvgCK4BGAsYHg/w400-h225/selenium.jpg',
-        url: 'https://hackzism.blogspot.com/2020/07/scraping-billboard-and-imdb-using.html'
+        title: 'System Design - Conference Management',
+        description: 'To understand how a real-world web application handles a high volume of traffic and how to ensure that information provided by the service is consistent and available at all times.',
+        date: 'November 17, 2022',
+        image: 'https://media.licdn.com/dms/image/D4D12AQHcRDXtu2o3fw/article-cover_image-shrink_423_752/0/1668680082516?e=1692230400&v=beta&t=2-NzEHfF6W-VsTXvHMBPCVL-8AHK_Lc-z5BCiNyhZaw',
+        url: 'https://www.linkedin.com/pulse/conference-management-system-design-vasant-vohra'
     },
     {
         id: 2,
-        title: 'CHECK WEATHER FROM TERMINAL USING WTTR.IN',
-        description: 'wttr.in is a console-oriented weather forecast service that supports various information representation methods like ANSI-sequences for console HTTP clients, HTML, or PNG.',
-        date: 'Aug 11, 2020',
-        image: 'https://1.bp.blogspot.com/-OW7jX57tea4/XvnGxuEOslI/AAAAAAAABW0/R8lVT1AXDSwnvE0EGA9Ra49-LDm1ACwDgCK4BGAsYHg/s1216/wttr1.png',
-        url: 'https://hackzism.blogspot.com/2020/06/check-weather-from-terminal-using-wttrin.html'
+        title: 'SOLID Principles',
+        description: 'I try to briefly explain the 5 basic SOLID Principles, every developer must know while creating a software product.',
+        date: 'April 25, 2021',
+        image: 'https://media.licdn.com/dms/image/C4D12AQH4YNg6ZQ_BSw/article-cover_image-shrink_423_752/0/1619354806766?e=1692230400&v=beta&t=7p4kSSN5IobFwRcuTep5li78HLbEmVCa_Wh924SqYZc',
+        url: 'https://www.linkedin.com/pulse/every-developer-must-know-vasant-vohra/'
     },
     {
         id: 3,
-        title: 'BEING ANONYMOUS: A BEGINNERS GUIDE',
-        description: 'Here are some basic ways to lay off the Radar',
-        date: 'Aug 14, 2020',
-        image: 'https://1.bp.blogspot.com/-GR19yCNbKCE/XuRcKEfKvhI/AAAAAAAAAwY/srFWw5pOpzMibeJb__SmgZpx9dIpNNWqgCK4BGAsYHg/w640-h426/anonymous1.jpg',
-        url: 'https://hackzism.blogspot.com/2020/06/being-anonymous-beginners-guide.html'
-    },
-    {
-        id: 4,
-        title: 'CHECK INTERNET SPEED FROM THE COMMAND LINE',
-        description: 'Want to check your internet speed from the terminal? Here\'s the perfect way to the that.',
-        date: 'Sep 17, 2020',
-        image: 'https://1.bp.blogspot.com/-XTVMsZP3HaM/Xxpl394txlI/AAAAAAAABws/zovXWiuNGg4TzBwYYVFfJ1ixDb3JfVokgCNcBGAsYHQ/w400-h195/speedtest.png',
-        url: 'https://hackzism.blogspot.com/2020/07/check-internet-speed-from-command-line.html'
-    },
-    {
-        id: 5,
-        title: 'GET MICHAEL\'S OR TREVOR\'S VEHICLES FULLY UPGRADED IN GTA V FOR FREE',
-        description: 'In case you haven\'t heard of this game, GTA stands for \'Grand Theft Auto\'. It is an open-world game published by Rockstar Games.',
-        date: 'Oct 1, 2020',
-        image: 'https://1.bp.blogspot.com/-jhdtUBIRD_s/XxLFKQuRz9I/AAAAAAAABsM/mClfbfDFKvsUwA7Wyi25Lzu3DEmL2lxrACNcBGAsYHQ/s1919/gta.jpg',
-        url: 'https://hackzism.blogspot.com/2020/07/how-can-you-get-michaels-or-trevors.html'
+        title: '7 steps for code reviewing via C3.',
+        description: 'Similar to taking a chilled beer with colleagues, the code review process should be taken as an opportunity for you and your team members to grow by sharing each other\'s knowledge.',
+        date: 'May 29, 2021',
+        image: 'https://media.licdn.com/dms/image/C4D12AQHXs5x4sCE8Qw/article-cover_image-shrink_423_752/0/1621091593512?e=1692230400&v=beta&t=6ngA1rTl9fBi2U3q0PdHSDmv9RS0fkMXdRPBB0o724I',
+        url: 'https://www.linkedin.com/pulse/pull-requests-vasant-vohra/'
     },
 ]
 

@@ -4,6 +4,7 @@ import './Achievement.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { achievementData } from '../../data/achievementData'
 import AchievementCard from './AchievementCard';
+import medisigns from "../../assets/svg/expertise/medisigns.jpeg";
 
 function Achievement() {
 
@@ -13,8 +14,11 @@ function Achievement() {
             {achievementData.achievements.length > 0 && (
                 <div className="achievement" id="achievement" style={{backgroundColor: theme.secondary}}>
                 <div className="achievement-body">
-                    <h1 style={{color: theme.primary}}>Achievements</h1>
-                    <h4 style={{color:theme.tertiary}}>{achievementData.bio}</h4>
+                    <h1 style={{color: theme.primary}}>Industry Expertise</h1>
+                    {/*<h4 style={{color:theme.tertiary}}>{achievementData.bio}</h4>*/}
+                    <div className="expertise-image">
+                        <img src={medisigns} alt=""/>
+                    </div>
                 </div>
                 <div className="achievement-cards">
                     {achievementData.achievements.map(achieve => ( 
