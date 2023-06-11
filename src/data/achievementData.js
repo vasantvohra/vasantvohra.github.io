@@ -1,5 +1,6 @@
 import hospitality from "../assets/svg/expertise/hospitality.png";
 import medisigns from "../assets/svg/expertise/medisigns.png";
+import indico from "../assets/svg/expertise/indico.png";
 
 export const achievementData = {
     bio : "I have gained experience in various industries, recognizing the importance of building exceptional software products that streamline operations and deliver optimal results for businesses.",
@@ -10,7 +11,7 @@ export const achievementData = {
             details : 'I designed & developed a one-of-a-kind Access Authorisation Module to enable journalists frequent access to UN premises for attending conferences.',
             date : 'October, 2020',
             field : 'Web App',
-            image : 'https://assets.stickpng.com/images/6160539b76000b00045a7d87.png'
+            image : indico
         },
         {
             id : 2,
