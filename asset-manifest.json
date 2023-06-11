@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c1b03917.chunk.css",
-    "main.js": "/static/js/main.17f9aa61.chunk.js",
-    "main.js.map": "/static/js/main.17f9aa61.chunk.js.map",
+    "main.js": "/static/js/main.0a9da89a.chunk.js",
+    "main.js.map": "/static/js/main.0a9da89a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.04d28187.js",
     "runtime-main.js.map": "/static/js/runtime-main.04d28187.js.map",
     "static/css/2.19627560.chunk.css": "/static/css/2.19627560.chunk.css",
@@ -92,6 +92,7 @@
     "static/media/hospitality.bbd07a25.png": "/static/media/hospitality.bbd07a25.png",
     "static/media/html.6a342d61.svg": "/static/media/html.6a342d61.svg",
     "static/media/illustrator.33feff48.svg": "/static/media/illustrator.33feff48.svg",
+    "static/media/indico.225028f5.png": "/static/media/indico.225028f5.png",
     "static/media/indico.b96efe9e.gif": "/static/media/indico.b96efe9e.gif",
     "static/media/ionic.d2050eeb.svg": "/static/media/ionic.d2050eeb.svg",
     "static/media/java.d004bc17.svg": "/static/media/java.d004bc17.svg",
@@ -156,6 +157,6 @@
     "static/css/2.19627560.chunk.css",
     "static/js/2.b49b1a71.chunk.js",
     "static/css/main.c1b03917.chunk.css",
-    "static/js/main.17f9aa61.chunk.js"
+    "static/js/main.0a9da89a.chunk.js"
   ]
 }
