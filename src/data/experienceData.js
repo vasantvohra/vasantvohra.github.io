@@ -1,3 +1,7 @@
+import ntt from '../assets/svg/experience/ntt.png'
+import unog from '../assets/svg/experience/unog_logo.png'
+import aapna from '../assets/svg/experience/aapna_logo.png'
+
 export const experienceData = [
     {
         id: 1,
@@ -6,7 +10,7 @@ export const experienceData = [
         startYear: '2022',
         endYear: 'Present',
         location: 'Geneva, Switzerland',
-        logo: 'https://i.ibb.co/Lk6Kw3n/image.png'
+        logo: ntt
     },
     {
         id: 2,
@@ -15,7 +19,7 @@ export const experienceData = [
         startYear: '2020',
         endYear: '2022',
         location: 'Geneva, Switzerland',
-        logo: 'https://i.ibb.co/zFzgMWw/image.png',
+        logo: unog,
     },
     {
         id: 3,
@@ -24,6 +28,6 @@ export const experienceData = [
         startYear: '2019',
         endYear: '2020',
         location: 'New-Delhi, India',
-        logo: 'https://i.ibb.co/GWL5YWJ/image.png',
+        logo: aapna,
     },
 ]

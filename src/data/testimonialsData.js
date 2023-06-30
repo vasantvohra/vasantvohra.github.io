@@ -1,10 +1,10 @@
 /* eslint-disable */
-import girl1 from '../assets/svg/testimonials/girl1.svg'
-import girl2 from '../assets/svg/testimonials/girl2.svg'
-import girl3 from '../assets/svg/testimonials/girl3.svg'
-import boy1 from '../assets/svg/testimonials/boy1.svg'
-import boy2 from '../assets/svg/testimonials/boy2.svg'
-import boy3 from '../assets/svg/testimonials/boy3.svg'
+import sevtap from '../assets/svg/testimonials/sevtap.jpeg'
+import swati from '../assets/svg/testimonials/swati.jpeg'
+import kartik from '../assets/svg/testimonials/kartik.jpeg'
+import ankur from '../assets/svg/testimonials/ankur.jpeg'
+import sid from '../assets/svg/testimonials/sid.jpeg'
+import devishi from '../assets/svg/testimonials/devishi.jpeg'
 
 
 
@@ -14,7 +14,7 @@ export const testimonialsData = [
         name: 'Sevtap Schreffler',
         title: 'Software Development Supervisor',
         text: "After Vasant fixed our problem, we went to now 803 members, this is a 700% improvement.",
-        image: 'https://media.licdn.com/dms/image/C4E03AQEDY5ADpq_15Q/profile-displayphoto-shrink_100_100/0/1541171160544?e=1692230400&v=beta&t=n0P7hDev2RS_wzvZCAq3mVVsf-m-hTc-x8l7NCw86n4'
+        image: sevtap
     },
     {
         id: 2,
@@ -22,35 +22,35 @@ export const testimonialsData = [
         title: 'Data-Platform Engineer',
         text: "Its rare that you come across standout talent like Vasant. " +
             "Had the pleasure of studying with him for 4 years, exploring more and more about machine learning...",
-        image: 'https://media.licdn.com/dms/image/D5603AQH-i-J8HFRu4A/profile-displayphoto-shrink_100_100/0/1671068741083?e=1692230400&v=beta&t=TQlz4xDV06So_IoO521H_A--lQVmfAaUyjH9yhUuPR4'
+        image: swati
     },
     {
         id: 3,
         name: 'Ankur Rajput',
         title: 'Mobile App Developer',
         text: "Vasant is a very hard working Developer, concepts are very clear and he is good in adopting new technologies...",
-        image: 'https://media.licdn.com/dms/image/C4E03AQGALrhM_J6gLg/profile-displayphoto-shrink_100_100/0/1599673616606?e=1692230400&v=beta&t=eWMnZwOk1mxsNktl_E3AbzmO_Cp6uZCc-o6xg7mJ4y4'
+        image: ankur
     },
     {
         id: 4,
         name: 'Siddharth Arora',
         title: 'Cyber Security Consultant',
         text: "Vasant has always been a curious student. Bringing up ideas and techniques for improvement in current technologies...",
-        image: 'https://media.licdn.com/dms/image/C5603AQFjmcKOTD282Q/profile-displayphoto-shrink_100_100/0/1587788215465?e=1692230400&v=beta&t=vd6KO-qsyfa4Tg5rAKnTYF9nMhZmmuE32y9S7GU8gK8'
+        image: sid
     },
     {
         id: 5,
         name: 'Kartik Sakhuja',
         title: 'Mobile App Developer',
         text: "Must say his Problem solving technique, Ability to come up with Different Ideas that helped the company in making more profit were just awesome.",
-        image: 'https://media.licdn.com/dms/image/C5603AQEsnQwbezCYng/profile-displayphoto-shrink_100_100/0/1663435968365?e=1692230400&v=beta&t=qGc2xf5RITGoMmhhSifMSOshgCDpV9P5lxg5ufSsHt0'
+        image: kartik
     },
     {
         id: 6,
         name: 'Devishi Kesar',
         title: 'Computational Biologist',
         text: 'He actively participated in Summer School at IISc, asking insightful questions. The lectures were regarding Deep learning GANs, LSTM, RL ...',
-        image: 'https://media.licdn.com/dms/image/D4E03AQFXYdIHPDF32w/profile-displayphoto-shrink_100_100/0/1666197065515?e=1692230400&v=beta&t=lJy0DP2UBj3JQk3jNygVNKIkTL1UsHvXtT-uXcVXF5I'
+        image: devishi
     },
 ]
 

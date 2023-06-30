@@ -1,3 +1,7 @@
+import iitm from '../assets/svg/education/iitm_logo.jpeg'
+import autodidact from '../assets/svg/education/autodidact_logo.jpeg'
+import srm_logo from '../assets/svg/education/srm_logo.png'
+
 export const educationData = [
     {
         id: 1,
@@ -6,7 +10,7 @@ export const educationData = [
         startYear: '2019',
         endYear: 'Present',
         subject: 'Software Engineering, Artificial Intelligence, Product Manager',
-        logo: 'https://media.licdn.com/dms/image/C4D0BAQGou4RG_l7Nbw/company-logo_200_200/0/1623401425150?e=1694649600&v=beta&t=GRyP3iIbdpXDNlzlIlwhsRWBJOKtRILs9fLDITc79kA'
+        logo: autodidact
     },
     {
         id: 2,
@@ -15,7 +19,7 @@ export const educationData = [
         startYear: '2015',
         endYear: '2019',
         subject: 'Computer Science Engineering',
-        logo: 'https://i.ibb.co/gP1ZV0n/image.png'
+        logo: srm_logo
     },
     {
         id: 3,
@@ -24,6 +28,6 @@ export const educationData = [
         startYear: '2018',
         endYear: '2018',
         subject: 'Deep Learning, Artificial Intelligence',
-        logo: 'https://media.licdn.com/dms/image/C4D0BAQGqbSuxjLqtWQ/company-logo_200_200/0/1659504005981?e=1694649600&v=beta&t=T5RCmItmiuL6cdBg6SX8_VQXC1xN_WwSXGzIJkywPPk'
+        logo: iitm
     },
 ]
