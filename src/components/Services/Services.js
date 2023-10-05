@@ -6,6 +6,7 @@ import { servicesData } from '../../data/servicesData';
 
 import './Services.css'
 import SingleService from './SingleService/SingleService';
+import {ConsultancyData} from "../../data/InsuranceCompanyData";
 
 function Services() {
 
@@ -37,4 +38,36 @@ function Services() {
     )
 }
 
+function Consultancy() {
+
+    const {theme} = useContext(ThemeContext);
+    return (
+        <>
+            {ConsultancyData.length > 0 && (
+                <div className="services" id="services" style={{backgroundColor: theme.secondary}}>
+                    <div className="services-header">
+                        <h1 style={{color: theme.primary}}>My Role</h1>
+                    </div>
+                    <div className="services-body">
+                        <p style={{color: theme.tertiary80}}>
+                            These are some of the services I offer. Reach out to me if I can help you with any!
+                        </p>
+                        <div className="services-bodycontainer">
+                            {ConsultancyData.map(services => (
+                                <SingleService
+                                    key={services.id}
+                                    id={services.id}
+                                    title={services.title}
+                                    icon={services.icon}/>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            )}
+        </>
+    )
+}
+
+
 export default Services
+export {Consultancy}

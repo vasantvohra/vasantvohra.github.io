@@ -5,7 +5,8 @@ import {
 
 
 export const themeData = {
-    theme: blueThemeLight
+    theme: blueThemeLight,
+    insuranceCaseStudyTheme: orangeThemeLight
 }
 
 
