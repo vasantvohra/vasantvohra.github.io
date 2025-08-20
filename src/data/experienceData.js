@@ -5,15 +5,24 @@ import aapna from '../assets/svg/experience/aapna_logo.png'
 export const experienceData = [
     {
         id: 1,
+        company: 'United Nations',
+        jobtitle: 'Associate Information Systems Officer',
+        startYear: '2024',
+        endYear: 'Present',
+        location: 'Geneva, Switzerland',
+        logo: unog
+    },
+    {
+        id: 2,
         company: 'NTT Data',
         jobtitle: 'Full-stack Developer',
         startYear: '2022',
-        endYear: 'Present',
+        endYear: '2023',
         location: 'Geneva, Switzerland',
         logo: ntt
     },
     {
-        id: 2,
+        id: 3,
         company: 'United Nations Office at Geneva',
         jobtitle: 'Full-stack Developer',
         startYear: '2020',
@@ -22,7 +31,7 @@ export const experienceData = [
         logo: unog,
     },
     {
-        id: 3,
+        id: 4,
         company: 'AAPNA InfoTech Pvt. Ltd.',
         jobtitle: 'Artificial Intelligence Consultant',
         startYear: '2019',
