@@ -1,6 +1,6 @@
 export const contactsData = {
     email: 'vasantvohra@gmail.com',
-    phone: '+919999984825',
-    address: 'New-Delhi, India',
+    phone: '+41 779273204',
+    address: 'Geneva, Switzerland',
     sheetAPI: 'https://sheetdb.io/api/v1/2neupnfeo46po'
 }
